@@ -1,0 +1,17 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: Run tests 🧐
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      # https://github.com/actions/checkout#checkout-multiple-repos-nested
+      - uses: actions/checkout@v2
+        with:
+          repository: arp242/testing.vim
+          ref: 963d2c2488ee85118a9896c06395d68ecbe0f36b
+          path: testing.vim
+      - run: ls -la
+      - run: ./testing.vim/tvim test test/*_test.vim

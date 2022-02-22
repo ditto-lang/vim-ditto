@@ -1,5 +1,7 @@
 # vim-ditto
 
+[![CI](https://github.com/ditto-lang/vim-ditto/actions/workflows/ci.yaml/badge.svg)](https://github.com/ditto-lang/vim-ditto/actions/workflows/ci.yaml)
+
 Provides basic support for `.ditto` files.
 
 For richer syntax highlighting, there is a [tree-sitter] grammar available over at 👉 [tree-sitter-ditto].
