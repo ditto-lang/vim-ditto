@@ -10,8 +10,10 @@ type Unknown;
 type Maybe(a) = Just(a) | Nothing;
 
 five = 5;
-five_again = 5.0;
-five = [5.0, 5.0];
+floaty_five = 5.0;
+five_thousand = 5_000.0;
+floaty_five_thousand = 5_000.0_1;
+fives = [5.0, 5.0];
 yes = true;
 no = false;
 test = unit;

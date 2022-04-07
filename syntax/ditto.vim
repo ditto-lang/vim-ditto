@@ -5,8 +5,7 @@ syntax keyword dittoKeyword type
 syntax keyword dittoKeyword foreign
 
 " Literals
-syntax match dittoInt "\v<\d+>"
-syntax match dittoFloat "\v<\d+\.\d+>"
+syntax match dittoNumber "\v<\d[0-9_]*(\.\d[0-9_]*)?>"
 syntax keyword dittoBool true false
 syntax keyword dittoUnit unit
 syntax region dittoString start=+"+ end=+"+ skip=+\\"+ contains=@Spell
@@ -34,8 +33,7 @@ highlight default link dittoKeyword Keyword
 highlight default link dittoProperName Type
 highlight default link dittoUnusedName Comment
 highlight default link dittoHole Debug
-highlight default link dittoInt Number
-highlight default link dittoFloat Float
+highlight default link dittoNumber Number
 highlight default link dittoBool Boolean
 highlight default link dittoUnit Identifier
 highlight default link dittoString String
