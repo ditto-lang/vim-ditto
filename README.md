@@ -43,6 +43,12 @@ And (re-)generate the tests with:
 for f in test/*.ditto; do tvim gen-syn $f > test/$(basename $f .ditto)_test.vim; done
 ```
 
+<!--
+git clone https://github.com/arp242/testing.vim.git
+for f in test/*.ditto; do ./testing.vim/tvim gen-syn $f > test/$(basename $f .ditto)_test.vim; done
+./testing.vim/tvim test test/*_test.vim
+-->
+
 [testing.vim]: https://github.com/arp242/testing.vim
 [tree-sitter]: https://tree-sitter.github.io/tree-sitter/
 [tree-sitter-ditto]: https://github.com/ditto-lang/tree-sitter-ditto
