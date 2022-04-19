@@ -18,3 +18,4 @@ yes = true;
 no = false;
 test = unit;
 conditional = if true then yey else ney;
+matchy_matchy = match dunno with | pattern -> "matched";
