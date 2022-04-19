@@ -8,16 +8,16 @@ For richer syntax highlighting, there is a [tree-sitter] grammar available over 
 
 ## Installing
 
-* [Vim 8 packages](http://vimhelp.appspot.com/repeat.txt.html#packages)
-  * `git clone https://github.com/ditto-lang/vim-ditto.git ~/.vim/pack/plugins/start/vim-ditto`
-* [Neovim packages](https://neovim.io/doc/user/repeat.html#packages)
-  * `git clone https://github.com/ditto-lang/vim-ditto.git ~/.local/share/nvim/site/pack/plugins/start/vim-ditto`
-* [Pathogen](https://github.com/tpope/vim-pathogen)
-  * `git clone https://github.com/ditto-lang/vim-ditto.git ~/.vim/bundle/vim-ditto`
-* [vim-plug](https://github.com/junegunn/vim-plug)
-  * `Plug 'ditto-lang/vim-ditto'`
-* [Vundle](https://github.com/VundleVim/Vundle.vim)
-  * `Plugin 'ditto-lang/vim-ditto'`
+- [Vim 8 packages](http://vimhelp.appspot.com/repeat.txt.html#packages)
+  - `git clone https://github.com/ditto-lang/vim-ditto.git ~/.vim/pack/plugins/start/vim-ditto`
+- [Neovim packages](https://neovim.io/doc/user/repeat.html#packages)
+  - `git clone https://github.com/ditto-lang/vim-ditto.git ~/.local/share/nvim/site/pack/plugins/start/vim-ditto`
+- [Pathogen](https://github.com/tpope/vim-pathogen)
+  - `git clone https://github.com/ditto-lang/vim-ditto.git ~/.vim/bundle/vim-ditto`
+- [vim-plug](https://github.com/junegunn/vim-plug)
+  - `Plug 'ditto-lang/vim-ditto'`
+- [Vundle](https://github.com/VundleVim/Vundle.vim)
+  - `Plugin 'ditto-lang/vim-ditto'`
 
 ## Developing
 
