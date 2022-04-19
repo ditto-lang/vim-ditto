@@ -22,5 +22,6 @@ fun! Test_basic() abort
         \ [['dittoBool', 7, 11]],
         \ [['dittoBool', 6, 11]],
         \ [['dittoUnit', 8, 12]],
+        \ [['dittoKeyword', 15, 17], ['dittoBool', 18, 22], ['dittoKeyword', 23, 27], ['dittoKeyword', 32, 36]],
     \ ])
 endfun

@@ -3,6 +3,7 @@ syntax keyword dittoKeyword module exports
 syntax keyword dittoKeyword import as
 syntax keyword dittoKeyword type
 syntax keyword dittoKeyword foreign
+syntax keyword dittoKeyword if then else
 
 " Literals
 syntax match dittoNumber "\v<\d[0-9_]*(\.\d[0-9_]*)?>"
