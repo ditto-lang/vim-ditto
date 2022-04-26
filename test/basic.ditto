@@ -19,3 +19,8 @@ no = false;
 test = unit;
 conditional = if true then yey else ney;
 matchy_matchy = match dunno with | pattern -> "matched";
+main = do {
+  input <- get_input;
+  console_log(input);
+  return input
+};
