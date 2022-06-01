@@ -3,8 +3,9 @@ syntax keyword dittoKeyword module exports
 syntax keyword dittoKeyword import as
 syntax keyword dittoKeyword type
 syntax keyword dittoKeyword foreign
+syntax keyword dittoKeyword fn
 syntax keyword dittoKeyword if then else
-syntax keyword dittoKeyword match with
+syntax keyword dittoKeyword match with end
 syntax keyword dittoKeyword do return
 
 " Literals
