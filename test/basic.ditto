@@ -9,6 +9,8 @@ type Unknown;
 
 type Maybe(a) = Just(a) | Nothing;
 
+type alias MaybeInt = Maybe(Int);
+
 five = 5;
 floaty_five = 5.0;
 five_thousand = 5_000.0;

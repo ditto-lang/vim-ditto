@@ -1,7 +1,7 @@
 " Keywords
 syntax keyword dittoKeyword module exports
 syntax keyword dittoKeyword import as
-syntax keyword dittoKeyword type
+syntax keyword dittoKeyword type alias
 syntax keyword dittoKeyword foreign
 syntax keyword dittoKeyword fn
 syntax keyword dittoKeyword if then else

@@ -14,6 +14,8 @@ fun! Test_basic() abort
         \ [],
         \ [['dittoKeyword', 1, 5]],
         \ [],
+        \ [['dittoKeyword', 1, 5], ['dittoKeyword', 6, 11]],
+        \ [],
         \ [['dittoNumber', 8, 9]],
         \ [['dittoNumber', 15, 18]],
         \ [['dittoNumber', 17, 24]],
