@@ -22,6 +22,7 @@ test = unit;
 identity = fn (a) -> a;
 conditional = if true then yey else ney;
 matchy_matchy = match dunno with | pattern -> "matched" end;
+pair = { fst: true, snd: 5 };
 main = do {
   input <- get_input;
   console_log(input);

@@ -22,7 +22,7 @@ syntax match dittoName "\v<[a-z]\w*>" contained
 syntax match dittoProperName "\v<[A-Z]\w*>" contained
 
 " Delimiters
-"syntax match dittoDelimiter "[,|.()[\]]"
+syntax match dittoDelimiter "[,|.()[\]{}]"
 
 " Comments
 syntax keyword dittoTodo NOTE TODO FIXME XXX contained
@@ -33,7 +33,7 @@ highlight default link dittoTodo Todo
 highlight default link dittoComment Comment
 highlight default link dittoConditional Conditional
 highlight default link dittoKeyword Keyword
-"highlight default link dittoDelimiter Delimiter
+highlight default link dittoDelimiter Delimiter
 highlight default link dittoProperName Type
 highlight default link dittoUnusedName Comment
 highlight default link dittoHole Debug
