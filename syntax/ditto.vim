@@ -7,6 +7,7 @@ syntax keyword dittoKeyword fn
 syntax keyword dittoKeyword if then else
 syntax keyword dittoKeyword match with end
 syntax keyword dittoKeyword do return
+syntax keyword dittoKeyword let in
 
 " Literals
 syntax match dittoNumber "\v<\d[0-9_]*(\.\d[0-9_]*)?>"
